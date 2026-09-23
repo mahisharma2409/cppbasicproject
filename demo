@@ -1,7 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
-cout<<"moksha sharma"<<endl;
 cout<<"welcome to the project"<<endl;
+cout<<"this project is made to learn c++ "<<endl;
+cout<<"we will learn basic concepts of c++ here "<<endl;
 return 0;
 }

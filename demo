@@ -1,8 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-cout<<"welcome to the project"<<endl;
-cout<<"this project is made to learn c++ "<<endl;
-cout<<"we will learn basic concepts of c++ here "<<endl;
+int a,b;
+cout<<"enter the value of a : ";
+cin>>a;
+cout<<"enter the value of b : ";
+cin>>b;
+cout<<"the sum of a and b is : "<<a+b<<endl;
 return 0;
 }

@@ -1,0 +1,8 @@
+#include<iostream>
+using namespace std;
+int main(){
+int age = 22;
+char grade = 'A';
+cout<<"the age is : "<<age<<endl;
+return 0;
+}

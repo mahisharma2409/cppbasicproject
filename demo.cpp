@@ -39,8 +39,9 @@ int main(){
 //{
 //loop body(c++code);
 //}
-for(int i=0;i<40;i++){
-     cout<<i<<endl;
- }
+// for(int i=0;i<40;i++){
+//      cout<<i<<endl;
+//  }
+cout<<"what is your name :"<<endl;
  return 0;
  }

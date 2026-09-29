@@ -40,7 +40,7 @@ int main(){
 //loop body(c++code);
 //}
 for(int i=0;i<40;i++){
-    cout<<i<<endl;
-}
-return 0;
-}
+     cout<<i<<endl;
+ }
+ return 0;
+ }

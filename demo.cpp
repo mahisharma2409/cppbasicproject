@@ -17,18 +17,30 @@ int main(){
   //  cout<<"you are not egligible to work in this company!!"<<endl;
 //}
 //SWITCH CASE CONTROL STRUCTURE
-int age;
-cout<<"enter your age :"<<endl;
-cin>>age;
-switch(age){
-    case 18:
-    cout<<"you are an adult!!"<<endl;
-    break;
-    case 21:
-    cout<<"you can work in this company!!"<<endl;
-    break;
-    default:
-    cout<<"you are not egligible to work in this company!!"<<endl;
+// int age;
+// cout<<"enter your age :"<<endl;
+// cin>>age;
+// switch(age){
+//     case 18:
+//     cout<<"you are an adult!!"<<endl;
+//     break;
+//     case 21:
+//     cout<<"you can work in this company!!"<<endl;
+//     break;
+//     default:
+//     cout<<"you are not egligible to work in this company!!"<<endl;
+// }
+//LOOPS IN C++
+//1. FOR LOOP
+//2.WHILE LOOP
+//3.DO WHILE LOOP
+//FOR LOOP IN C++
+//for(initialization;condition;increment/decrement)
+//{
+//loop body(c++code);
+//}
+for(int i=0;i<40;i++){
+    cout<<i<<endl;
 }
 return 0;
 }

@@ -1,5 +1,4 @@
-this is the repository demo 
-there is a delay in commits
+this is the repository demo from code with harry
 AUTHOR : Mahi Sharma
 
 

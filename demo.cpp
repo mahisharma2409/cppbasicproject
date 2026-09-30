@@ -42,6 +42,9 @@ int main(){
 // for(int i=0;i<40;i++){
 //      cout<<i<<endl;
 //  }
-cout<<"what is your name :"<<endl;
+int name;
+cout<<"enter your name :"<<endl;
+cin>>name;
+cout<<"hello!!!"<<name<<endl;
  return 0;
  }

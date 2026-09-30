@@ -46,5 +46,6 @@ int name;
 cout<<"enter your name :"<<endl;
 cin>>name;
 cout<<"hello!!!"<<name<<endl;
+cout<<"we are happy to see you here!!"<<endl;
  return 0;
  }

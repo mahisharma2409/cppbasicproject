@@ -47,6 +47,18 @@ int main(){
 // cin>>name;
 // cout<<"hello!!!"<<name<<endl;
 // cout<<"we are happy to see you here!!"<<endl;
-cout<<"****\n***\n**\n*\n";
- return 0;
- }
+//PRINTING STAR PATTERN IN C++
+// cout<<"****\n***\n**\n*\n";
+//PRINTING AVERAGE IN C++
+int a;
+int b;
+int c;
+cout<<"enter the first number : "<<endl;
+cin>>a;
+cout<<"enter the second number : "<<endl;
+cin>>b;
+cout<<"enter the third number : "<<endl;
+cin>>c;
+cout<<"the average is : "<<(a+b+c)/3<<endl;
+return 0;
+}

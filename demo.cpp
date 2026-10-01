@@ -42,10 +42,11 @@ int main(){
 // for(int i=0;i<40;i++){
 //      cout<<i<<endl;
 //  }
-int name;
-cout<<"enter your name :"<<endl;
-cin>>name;
-cout<<"hello!!!"<<name<<endl;
-cout<<"we are happy to see you here!!"<<endl;
+// int name;
+// cout<<"enter your name :"<<endl;
+// cin>>name;
+// cout<<"hello!!!"<<name<<endl;
+// cout<<"we are happy to see you here!!"<<endl;
+cout<<"****\n***\n**\n*\n";
  return 0;
  }

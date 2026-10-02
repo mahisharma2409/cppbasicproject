@@ -55,6 +55,7 @@ int main(){
 //  cin>>a>>b>>c;
 //  cout<<"the average is : "<<(a+b+c)/3<<endl;
 //typecasting in c++
-cout<<(10/3)<<endl;
+//cout<<(10/3)<<endl;
+cout<<"what is your name ??"<<endl;
  return 0;
  }

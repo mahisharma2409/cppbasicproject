@@ -5,18 +5,18 @@ int main(){
 // char grade = 'A';
 // cout<<"the age is : "<<age<<endl;
 // cout<<"the grade is : "<<grade<<endl;
-//SELECTION CONTROL STRUCTURE IF-ELSE
+// SELECTION CONTROL STRUCTURE IF-ELSE
 // cout<<"enter your age :"<<endl;
 // int age;
 // cin>>age;
 // if(age>=21){
-    // cout<<"you are egligible to work!!"<<endl;
-    //we can also use else if here multiple times for multiple conditions
-//}
-//else{
-  //  cout<<"you are not egligible to work in this company!!"<<endl;
-//}
-//SWITCH CASE CONTROL STRUCTURE
+//     cout<<"you are egligible to work!!"<<endl;
+//     we can also use else if here multiple times for multiple conditions
+// }
+// else{
+//    cout<<"you are not egligible to work in this company!!"<<endl;
+// }
+// SWITCH CASE CONTROL STRUCTURE
 // int age;
 // cout<<"enter your age :"<<endl;
 // cin>>age;
@@ -30,15 +30,15 @@ int main(){
 //     default:
 //     cout<<"you are not egligible to work in this company!!"<<endl;
 // }
-//LOOPS IN C++
-//1. FOR LOOP
-//2.WHILE LOOP
-//3.DO WHILE LOOP
-//FOR LOOP IN C++
-//for(initialization;condition;increment/decrement)
-//{
-//loop body(c++code);
-//}
+// LOOPS IN C++
+// 1. FOR LOOP
+// 2.WHILE LOOP
+// 3.DO WHILE LOOP
+// FOR LOOP IN C++
+// for(initialization;condition;increment/decrement)
+// {
+// loop body(c++code);
+// }
 // for(int i=0;i<40;i++){
 //      cout<<i<<endl;
 //  }
@@ -47,18 +47,14 @@ int main(){
 // cin>>name;
 // cout<<"hello!!!"<<name<<endl;
 // cout<<"we are happy to see you here!!"<<endl;
-//PRINTING STAR PATTERN IN C++
+// PRINTING STAR PATTERN IN C++
 // cout<<"****\n***\n**\n*\n";
-//PRINTING AVERAGE IN C++
-int a;
-int b;
-int c;
-cout<<"enter the first number : "<<endl;
-cin>>a;
-cout<<"enter the second number : "<<endl;
-cin>>b;
-cout<<"enter the third number : "<<endl;
-cin>>c;
-cout<<"the average is : "<<(a+b+c)/3<<endl;
-return 0;
-}
+// PRINTING AVERAGE IN C++
+//  int a,b,c;
+//  cout<<"enter three numbers :"<<endl;
+//  cin>>a>>b>>c;
+//  cout<<"the average is : "<<(a+b+c)/3<<endl;
+//typecasting in c++
+cout<<(10/3)<<endl;
+ return 0;
+ }

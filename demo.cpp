@@ -71,6 +71,10 @@ int main(){
 //agar dono condition true h toh true return hoga
 // || operator - or operator
 //agar ek bhi condition true h toh true return hoga
-cout<<((3<5)||(10==5))<<endl;//true
+//cout<<((3<5)||(10==5))<<endl;//true
+//! operator - not operator
+//agar condition true h toh false return hoga 
+//agar condition false h tohh true return hoga
+cout<<(!((3>5)))<<endl;//false
  return 0;
  }

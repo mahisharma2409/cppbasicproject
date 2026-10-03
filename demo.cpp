@@ -56,6 +56,11 @@ int main(){
 //  cout<<"the average is : "<<(a+b+c)/3<<endl;
 //typecasting in c++
 //cout<<(10/3)<<endl;
-cout<<"what is your name ??"<<endl;
+//cout<<"what is your name ??"<<endl;
+//RATIONAL OPERATORS - a true or false is returned
+int a=3;
+int b=5;
+cout<<(a>b)<<endl;//false
+cout<<(a<b)<<endl;//true
  return 0;
  }

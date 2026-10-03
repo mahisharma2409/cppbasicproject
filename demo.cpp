@@ -58,11 +58,19 @@ int main(){
 //cout<<(10/3)<<endl;
 //cout<<"what is your name ??"<<endl;
 //RATIONAL OPERATORS - a true or false is returned
-int a=3;
-int b=5;
-cout<<(a>b)<<endl;//false
-cout<<(a<b)<<endl;//true
-cout<<(a==b)<<endl;//false
-cout<<(a!=b)<<endl;//false
+// int a=3;
+// int b=5;
+// cout<<(a>b)<<endl;//false
+// cout<<(a<b)<<endl;//true
+// cout<<(a==b)<<endl;//false
+// cout<<(a!=b)<<endl;//true
+//LOGICAL OPERATORS -A true or false is returned
+// && operator - and operator
+//cout<<((3<5)&&(10==5))<<endl;//false
+//agar ek bhi condition false hui toh false return hoga
+//agar dono condition true h toh true return hoga
+// || operator - or operator
+//agar ek bhi condition true h toh true return hoga
+cout<<((3<5)||(10==5))<<endl;//true
  return 0;
  }

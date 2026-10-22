@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-int main(){
+//int main(){
 // int age = 22;
 // char grade = 'A';
 // cout<<"the age is : "<<age<<endl;
@@ -75,6 +75,22 @@ int main(){
 //! operator - not operator
 //agar condition true h toh false return hoga 
 //agar condition false h tohh true return hoga
-cout<<(!((3>5)))<<endl;//false
- return 0;
- }
+//cout<<(!((3>5)))<<endl;//false
+//BINARY NUMBER SYSTEM
+//Binary to decimal conversion
+void binaryToDecimal (int binNum){
+    int decNum = 0;
+    int n = binNum;
+    int power = 1;
+    while(n>0){
+        int lastDig = n%10;
+        decNum += lastDig * power;
+        power = power * 2;
+        n= n/10;
+    }
+    cout<<"the decimal equivalent is : "<<decNum<<endl;
+}
+int main(){
+    binaryToDecimal(1010011);
+    return 0;
+}

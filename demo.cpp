@@ -78,19 +78,37 @@ using namespace std;
 //cout<<(!((3>5)))<<endl;//false
 //BINARY NUMBER SYSTEM
 //Binary to decimal conversion
-void binaryToDecimal (int binNum){
-    int decNum = 0;
-    int n = binNum;
-    int power = 1;
-    while(n>0){
-        int lastDig = n%10;
-        decNum += lastDig * power;
-        power = power * 2;
-        n= n/10;
-    }
-    cout<<"the decimal equivalent is : "<<decNum<<endl;
+//void binaryToDecimal (int binNum){
+  //  int decNum = 0;
+   // int n = binNum;
+    //int power = 1;
+    //while(n>0){
+      //  int lastDig = n%10;
+        //decNum += lastDig * power;
+        //power = power * 2;
+        //n= n/10;
+    //}
+    //cout<<"the decimal equivalent is : "<<decNum<<endl;
+//}
+//int main(){
+  //  binaryToDecimal(1010011);
+    //return 0;
+//}
+//DECIMAL TO BNARY CONVERSION
+void decimalToBinary(int decimal)
+{
+int n= decimal;
+int binaryNum=0;
+int power = 1;
+while(n>0){
+    int lastDig = n%2;
+    binaryNum += lastDig * power;
+    power = power * 10;
+    n= n/2;
+}
+cout<<"the binary equavalent is : "<<binaryNum<<endl;
 }
 int main(){
-    binaryToDecimal(1010011);
+    decimalToBinary(13);
     return 0;
 }

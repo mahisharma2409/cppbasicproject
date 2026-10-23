@@ -95,20 +95,27 @@ using namespace std;
     //return 0;
 //}
 //DECIMAL TO BNARY CONVERSION
-void decimalToBinary(int decimal)
-{
-int n= decimal;
-int binaryNum=0;
-int power = 1;
-while(n>0){
-    int lastDig = n%2;
-    binaryNum += lastDig * power;
-    power = power * 10;
-    n= n/2;
-}
-cout<<"the binary equavalent is : "<<binaryNum<<endl;
-}
+//void decimalToBinary(int decimal)
+//{
+//int n= decimal;
+//int binaryNum=0;
+//int power = 1;
+//while(n>0){
+  //  int lastDig = n%2;
+    //binaryNum += lastDig * power;
+    //power = power * 10;
+    //n= n/2;
+//}
+//cout<<"the binary equavalent is : "<<binaryNum<<endl;
+//}
+//int main(){
+    //decimalToBinary(13);
+  //  return 0;
+//}
+//POINTERS
 int main(){
-    decimalToBinary(13);
+    int a=10;
+    int* ptr=&a;
+    cout<<"the value of a is : "<<ptr<<endl;
     return 0;
 }

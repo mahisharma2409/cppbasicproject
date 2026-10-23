@@ -113,9 +113,38 @@ using namespace std;
   //  return 0;
 //}
 //POINTERS
+//int main(){
+  //  int a=10;
+    //int* ptr=&a;
+    //cout<<"the value of a is : "<<ptr<<endl;
+    //return 0;
+//}
+//null pointer
+//int main(){
+  //  int*ptr=NULL;
+    //cout<<ptr<<endl;
+   // return 0;
+//}
+//passing arguments
+//pass by value
+//void changeA(int a){
+  //  a=20;
+    //cout<<a<<endl;
+//}
+//int main(){
+  //  int a=10;
+    //changeA(a);
+    //cout<<a<<endl;
+    //return 0;
+//}
+//pass by refrence by using pointers
+void changeA(int *ptr){
+    *ptr=20;
+    cout<<*ptr<<endl;
+}
 int main(){
-    int a=10;
-    int* ptr=&a;
-    cout<<"the value of a is : "<<ptr<<endl;
+    int a = 10;
+    changeA(&a);
+    cout<<a<<endl;
     return 0;
 }

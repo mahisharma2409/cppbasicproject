@@ -148,3 +148,17 @@ using namespace std;
     //cout<<a<<endl;
     //return 0;
 //}
+void changeA(int *ptr){
+  *ptr=20;
+  cout<<*ptr<<endl;
+}
+int main(){
+  int a = 10;
+  int &b=a;
+  b=25;
+  cout<<b<<endl;
+  cout<<a<<endl;
+  changeA(&a);
+  cout<<a<<endl;
+  return 0;
+}
